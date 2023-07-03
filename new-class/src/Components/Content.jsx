@@ -1,11 +1,23 @@
 import React from "react";
+import Part from "../Part";
 
 
 
 const Content= (props) => {
-    console.log(props)
+    console.log(props.course.parts ,"content")
 
-return <h1> {props.exercises1} {props.exercises2} {props.exercises3} </h1>
+return (
+    <div>
+
+        <Part exercise={props.course.parts[0]} />
+        <Part exercise={props.course.parts[1]} />
+        <Part exercise={props.course.parts[2]} />
+
+
+
+
+    </div>
+)
 
 
 }

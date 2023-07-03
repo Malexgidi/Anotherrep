@@ -1,5 +1,5 @@
 
-.h1{
+/* .h1{
 
   color: white;
   background-color: gray;
@@ -116,8 +116,18 @@ margin-right: 6rem;
 
 .gender{
   margin-top: 0.5rem;
-} 
+}  */
 
+
+.exercises{
+  margin-left: 1rem;
+  display: flex;
+  
+}
+
+.exercises-numbers{
+  padding-left: 0.5rem;
+}
 
 
 

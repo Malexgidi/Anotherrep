@@ -3,11 +3,16 @@ import React from "react";
 
 
 const Total = (props) => {
-    console.log(props)
+    console.log(props.course.exercises,"total")
    
 
-return <h1> {props.exercises1}  {props.exercises2}  {props.exercises3} </h1>
-
+return (
+    <div>
+      <p>Number of exercises {props.course.parts[0].exercises + props.course.parts[1].exercises + props.course.parts[2].exercises  }   </p>  
+        
+       
+    </div>
+)
 }
 
 export default Total;
